@@ -3,7 +3,7 @@ var context = canvas.getContext("2d");
 
 
 // ИГрок
-var player = { x: 160, y: 100, height: 80, width: 50, xSpeed:0, ySpeed:0 };
+var player = { x: 160, y: 0, height: 80, width: 50, xSpeed:0, ySpeed:5 };
 
 function draw(){
     // Очистка старых следов
